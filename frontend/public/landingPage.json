@@ -1,0 +1,175 @@
+{
+  "navbar": {
+    "logo": "Elizabeth Filips",
+    "links": [
+      { "title": "Articles", "path": "/articles" },
+      { "title": "Book Notes", "path": "/booknotes" },
+      { "title": "Newsletter", "path": "/newsletter" },
+      { "title": "Podcast", "path": "/podcast" },
+      { "title": "YouTube", "path": "/youtube" },
+      { "title": "Contact", "path": "contact" }
+    ]
+  },
+  "hero": {
+    "headline": "Heya, I'm Elizabeth, a medical student and painter in London.",
+    "subHeadline": "I love to think and talk about learning, creativity and reading. And how to find the time to do those things.",
+    "subpoints": [
+      "🎥 I make nerdy videos on YouTube.",
+      "💌 I write thoughts & curated things in my newsletter.",
+      "🎙  I paint and explore my brain on my podcast.",
+      "📚 I share book notes here and in your inbox.",
+      "🧠 I make Notion Templates for self-work."
+    ],
+    "image": "src/assets/images/landingPageImages/landingPageImage.avif"
+  },
+  "bookNotes": {
+    "heading": "Popular Book Notes",
+    "description": "Curated thoughts and highlights from some of the most impactful books I’ve read.",
+    "books": [
+      {
+        "title": "ALGORITHMS TO LIVE BY",
+        "cover": "https://static.wixstatic.com/media/92947d_a5c2a58ba32441b79a2ff310a88afd1d~mv2.jpeg/v1/crop/x_2,y_0,w_327,h_500/fill/w_103,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9781627790369-uk.jpeg",
+        "author": "BRIAN CHRISTIAN"
+      },
+      {
+        "title": "TIME ENOUGH FOR LOVE",
+        "cover": "https://static.wixstatic.com/media/92947d_a49a3d9ead704aa8b8e3740fb1beadd0~mv2.jpg/v1/crop/x_0,y_1,w_311,h_475/fill/w_103,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/51NOKZwuCfL__SL500_.jpg",
+        "author": "ROBERT HEINLEIN"
+      },
+      {
+        "title": "THE PSYCHOLOGY OF DISCOVERY AND INVENTION",
+        "cover": "https://static.wixstatic.com/media/92947d_53b807ae9edf4217b21196f7395fdb17~mv2.jpg/v1/crop/x_1,y_0,w_327,h_499/fill/w_103,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41lRh4YRWOL__SX326_BO1%2C204%2C203%2C200_.jpg",
+        "author": "DR MIHALY CSIKSZENTMIHALYI"
+      },
+      {
+        "title": "PROJECT HAIL MARY",
+        "cover": "https://static.wixstatic.com/media/92947d_1cfa7535cc0e40448ee990519dd6b4ab~mv2.jpeg/v1/crop/x_2,y_0,w_179,h_276/fill/w_103,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/download.jpeg",
+        "author": "ANDREW WEIR"
+      },
+      {
+        "title": "THE BOOK OF BEAUTIFUL QUESTIONS",
+        "cover": "https://static.wixstatic.com/media/92947d_22975471f5c0447abc2b371d92994e91~mv2.jpeg/v1/crop/x_4,y_0,w_1677,h_2560/fill/w_103,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/81NpDcap7mL.jpeg",
+        "author": "WARREN BERGER"
+      },
+      {
+        "title": "RECEIVING FEEDBACK WELL",
+        "cover": "https://static.wixstatic.com/media/92947d_ced5eb7047414948a0bec1b3c299a695~mv2.jpeg/v1/crop/x_3,y_3,w_325,h_497/fill/w_103,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/51E8xzOMHmL.jpeg",
+        "author": "DOUGLAS STONE, SHEILA HEEN"
+      }
+    ],
+    "button": {
+      "label": "More Book Notes",
+      "link": "/book-notes"
+    }
+  },
+  "youtube": {
+    "heading": "Popular YouTube Videos",
+    "description": "Elizabeth’s channel is all about deep focus, creativity, and learning — delivered with sincerity and charm. As a medical student and artist based in London, she explores productivity, memory, and life as a thinker — making nerdy topics feel personal and inspiring.",
+    "videos": [
+      {
+        "title": "How I Consistently Study with a Full Time Job: My Scheduling Formula",
+        "thumbnail": "https://i.ytimg.com/vi/JfZvWrUXhWY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBBYUg15SLZde_afptMSuZJB4COVw",
+        "url": "https://youtube.com/watch?v=xxxxxx"
+      },
+      {
+        "title": "You're Not Forgetful: My System for Memorising Everything",
+        "thumbnail": "https://i.ytimg.com/vi/mxURe-EUmAs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDb1Dim9yN9BafVQ2Hc0mcOdZCC9w",
+        "url": "https://youtube.com/watch?v=xxxxxx"
+      },
+      {
+        "title": "You're Not Slow: Become a Speed Learner in 20 Minutes",
+        "thumbnail": "https://i.ytimg.com/vi/_wzJnWCBWkI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCJb-tHOjP5AVOBgUrg3f0BBCMVkw",
+        "url": "https://youtube.com/watch?v=xxxxxx"
+      },
+      {
+        "title": "You’re Not Stupid: How to Easily Learn Difficult Things",
+        "thumbnail": "https://i.ytimg.com/vi/Kz_brQBl8xk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAKQRUiyRnUoJnTLil6iPmnxuEeHA",
+        "url": "https://youtube.com/watch?v=xxxxxx"
+      },
+      {
+        "title": "You're Not Lazy: How to Live a Chaotically Organised Life",
+        "thumbnail": "https://i.ytimg.com/vi/A2sS00egAzg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJBVeGibVNJwhBZ717DZcS563Q0A",
+        "url": "https://youtube.com/watch?v=xxxxxx"
+      },
+      {
+        "title": "You’re Not Slow: Become a Speed Reader in 15 Minutes",
+        "thumbnail": "https://i.ytimg.com/vi/HB__TF9rp0E/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAt0WJSaSoYkaULPz7ECd0wTiqtNA",
+        "url": "https://youtube.com/watch?v=xxxxxx"
+      }
+    ],
+    "button": {
+      "label": "Watch More Videos",
+      "link": "/youtube"
+    }
+  },
+  "podcast": {
+    "heading": "🎙 Feelosophy – Conversations that Make You Feel & Think",
+    "description": "A podcast by Elizabeth Filips about self-awareness, creativity, and emotional intelligence — with episodes exploring the thoughts we often keep to ourselves.",
+    "episodes": [
+      {
+        "title": "Season 1: Why we chase productivity",
+        "thumbnail": "https://static.wixstatic.com/media/92947d_cb83e26508e846bfa79d59aa68a7b3b0~mv2.png/v1/crop/x_6,y_0,w_2914,h_2160/fill/w_362,h_267,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/everything%20I've%20learnt-289.png",
+        "url": "/podcast/season1"
+      },
+      {
+        "title": "Season 1: Why we chase productivity",
+        "thumbnail": "https://static.wixstatic.com/media/92947d_b9dfc710353a4d1dbb944e8e8509e5ae~mv2.png/v1/crop/x_1082,y_121,w_2275,h_1677/fill/w_362,h_267,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/everything%20I've%20learnt-567.png",
+        "url": "/podcast/season1"
+      }
+    ],
+    "button": {
+      "label": "Explore Podcast",
+      "link": "/podcast"
+    }
+  },
+  "newsletter": {
+    "heading": "Subscribe to My Newsletter",
+    "description": "Get my favorite thoughts, notes, and gems from around the internet—straight to your inbox.",
+    "inputPlaceholder": "Enter your email",
+    "buttonText": "Join"
+  },
+  "footer": {
+    "logo": "Elizabeth Filips",
+    "resources": {
+      "title": "Resources",
+      "links": ["Articles", "Book Notes", "Podcast", "Youtube", "About"]
+    },
+    "contact": {
+      "title": "Contact",
+      "links": [
+        "(020) xxxx xxxx",
+        "liz@elizabethfilips.com",
+        "Street - 68 Petworth Rd City - Dustan Country - United Kindom"
+      ]
+    },
+    "socialMedia": {
+      "title": "Social Media",
+      "links": [
+        {
+          "image": "src/assets/images/footerImages/youtube-logo.png",
+          "name": "Youtube"
+        },
+        {
+          "image": "src/assets/images/footerImages/spotify-logo.png",
+          "name": "Spotify"
+        },
+        {
+          "image": "src/assets/images/footerImages/instagram-logo.png",
+          "name": "Instagram"
+        },
+        {
+          "image": "src/assets/images/footerImages/twiter-logo.png",
+          "name": "Twitter"
+        },
+        {
+          "image": "src/assets/images/footerImages/email-logo.png",
+          "name": "Email"
+        }
+      ]
+    },
+    "credits": {
+      "copyrights": "© 2025 Elizabeth Filips. All rights reserved.",
+      "credits": "Reimagined by Prajwal.D Ghadigaonkar"
+    }
+  }
+}
