@@ -25,14 +25,14 @@ const Hero = ({ hero }) => {
             {hero?.subHeadline}
           </p>
 
-          <div className={clsx("min-h-[20vh] flex flex-col", "")}>
+          <div className={clsx("min-h-[22vh] flex flex-col", "")}>
             <HeroTextAnimation hero={hero} />
           </div>
 
           <button
             className={clsx(
-              "text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0.75vw_0.75vw_0.75vw_rgba(0,0,0,0.75)] w-fit rounded-lg p-4 mt-10",
-              "lg:shadow-[0.2vw_0.2vw_0.5vw_rgba(0,0,0,0.75)] lg:w-fit lg:p-4 lg:rounded-lg lg:mt-6"
+              "text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] font-medium w-fit rounded-lg p-4 mt-10",
+              "lg:shadow-[0px_4px_10px_rgba(0,0,0,0.25)] lg:w-fit lg:p-4 lg:rounded-lg lg:mt-6"
             )}
           >
             Get Book Note
@@ -47,7 +47,7 @@ const Hero = ({ hero }) => {
         >
           <div
             className={clsx(
-              "shadow-[0.5vw_0.5vw_0.75vw] active:scale-105 rounded-tl-[8vw] rounded-br-[8vw] w-[55vw]",
+              "shadow-[0px_4px_10px_rgba(0,0,0,0.25)] active:scale-105 rounded-tl-[8vw] rounded-br-[8vw] w-[55vw]",
               "lg:w-[15vw] lg:rounded-tl-[4vw] lg:rounded-br-[4vw]"
             )}
           >

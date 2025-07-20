@@ -21,8 +21,8 @@ const ContextWrapper = (props) => {
           bookNotesRes.json(),
         ]);
 
-        console.log("Landing Page Data:", landingPageData);
-        console.log("Book Notes Data:", bookNotesData);
+        // console.log("Landing Page Data:", landingPageData);
+        // console.log("Book Notes Data:", bookNotesData);
 
         setLandingPage(landingPageData);
         setBookNotesPage(bookNotesData)

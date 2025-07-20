@@ -15,7 +15,7 @@ const NewletterInput = ({newsletter}) => {
         />
         <button
           className={clsx(
-            "w-fit p-2 text-[#fef4ec] bg-[#bc8f8f] rounded-tr-lg rounded-br-lg mt-auto border-none shadow-[0.2vw_0.2vw_0.5vw_rgba(0,0,0,0.75)] text-[3vw] lg:text-lg",
+            "w-fit p-2 text-[#fef4ec] bg-[#bc8f8f] rounded-tr-lg rounded-br-lg mt-auto border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] text-[3vw] lg:text-lg",
             "lg:p-4"
           )}
         >

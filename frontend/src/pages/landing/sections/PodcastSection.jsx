@@ -14,7 +14,7 @@ const PodcastSection = ({podcast}) => {
         <div className={clsx("flex item-center justify-center flex-wrap overflow-hidden shrink-0 gap-10 px-5 py-5 min-h-[15vw]", "lg:gap-10 lg:min-h-[5vw] lg:px-10 lg:py-10")}>
           {podcast?.episodes?.map((item, index) => {
             return (
-              <div key={index} className={clsx(" bg-[#f2f3f5] rounded-2xl","lg:w-[40%] shadow-[0.25vw_0.25vw_0.5vw]")}>
+              <div key={index} className={clsx(" bg-[#f2f3f5] rounded-2xl","lg:w-[40%] shadow-[0px_4px_10px_rgba(0,0,0,0.25)]")}>
                 <img
                   src={item?.thumbnail}
                   alt={item?.title}
@@ -26,7 +26,7 @@ const PodcastSection = ({podcast}) => {
         </div>
 
         <div className="flex items-center justify-center">
-          <button className={clsx("w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0.75vw_0.75vw_0.75vw_rgba(0,0,0,0.75)] px-2 py-2 rounded-lg mt-8", "lg:px-4 lg:rounded-lg lg:mt-0 lg:shadow-[0.2vw_0.2vw_0.5vw_rgba(0,0,0,0.75)]")}>
+          <button className={clsx("w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] px-2 py-2 rounded-lg mt-8", "lg:px-4 lg:rounded-lg lg:mt-0 lg:shadow-[0.2vw_0.2vw_0.5vw_rgba(0,0,0,0.75)]")}>
             Browse Full Library
           </button>
         </div>

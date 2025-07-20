@@ -44,11 +44,9 @@ const Footer = () => {
             >
               {footer?.resources?.links?.map((item, index) => {
                 return (
-                  <>
-                    <div key={index} className="">
-                      <h3>{item}</h3>
-                    </div>
-                  </>
+                  <div key={index}>
+                    <h3>{item}</h3>
+                  </div>
                 );
               })}
             </div>
@@ -69,11 +67,9 @@ const Footer = () => {
             >
               {footer?.contact?.links?.map((item, index) => {
                 return (
-                  <>
-                    <div key={index} className="flex gap-2 items-center">
-                      <h3>{item}</h3>
-                    </div>
-                  </>
+                  <div key={index} className="flex gap-2 items-center">
+                    <h3>{item}</h3>
+                  </div>
                 );
               })}
             </div>
@@ -92,19 +88,17 @@ const Footer = () => {
             <div className={("flex flex-col text-lg mt-5 gap-1", "lg:gap-2")}>
               {footer?.socialMedia?.links?.map((item, index) => {
                 return (
-                  <>
-                    <div key={index} className="flex gap-2 items-center">
-                      <img
-                        src={item?.image}
-                        alt={item?.name}
-                        className={clsx(
-                          "w-[6vw] h-[6vw]",
-                          "lg:w-[2vw] lg:h-[2vw]"
-                        )}
-                      />
-                      <h3 className="text-lg">{item?.name}</h3>
-                    </div>
-                  </>
+                  <div key={index} className="flex gap-2 items-center">
+                    <img
+                      src={item?.image}
+                      alt={item?.name}
+                      className={clsx(
+                        "w-[6vw] h-[6vw]",
+                        "lg:w-[2vw] lg:h-[2vw]"
+                      )}
+                    />
+                    <h3 className="text-lg">{item?.name}</h3>
+                  </div>
                 );
               })}
             </div>

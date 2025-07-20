@@ -43,8 +43,10 @@ This is a reimagined version of Elizabeth Filips’ personal website, developed 
 **Prerequisites:** Node.js v14+ and npm
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/PrajwalGhadi/Hackthon_Re-Imagine_Influencer_Websites.git
+
 cd Hackthon_Re-Imagine_Influencer_Websites
+
 npm install
 npm run dev      # For local development (Vite)
 npm run build    # To create a production build

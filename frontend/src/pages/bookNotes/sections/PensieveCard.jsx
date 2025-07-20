@@ -6,7 +6,7 @@ const PensieveCard = ({ pensieve }) => {
   return (
     <>
       <section id="PensieveCard" className="px-[5vw] py-5">
-        <div className={clsx("bg-[#e3e8d0] flex flex-col gap-2 rounded-3xl shadow-[0.25vw_0.25vw_0.75vw] px-5","lg:gap-4 lg:min-h-[25vw] lg:rounded-4xl lg:shadow-[0.25vw_0.25vw_0.5vw]")}>
+        <div className={clsx("bg-[#e3e8d0] flex flex-col gap-2 rounded-3xl shadow-[0px_4px_10px_rgba(0,0,0,0.25)] px-5","lg:gap-4 lg:min-h-[25vw] lg:rounded-4xl lg:shadow-[0px_4px_10px_rgba(0,0,0,0.25)]")}>
           <h1 className="text-center font-semibold text-[7vw] lg:text-[3vw]">
             {pensieve?.title}
           </h1>

@@ -18,10 +18,6 @@ const BooksContainer = ({ categories }) => {
     );
 
   // console.log(matchedCategory);
-
-  useEffect(() => {
-    console.log("re-Render");
-  }, [param]);
   return (
     <>
       <section id="booksContainer" className="px-[1vw] py-5">
@@ -35,7 +31,7 @@ const BooksContainer = ({ categories }) => {
         >
           {/* Using Double map here because books are kept under category  */}
           {matchedCategory === undefined ? (
-            categories?.flatMap((cat) =>
+            categories?.map((cat) =>
               cat?.books?.map((book, index) => (
                 <BookNotesCard key={index} item={book} />
               ))
@@ -73,7 +69,7 @@ const BooksContainer = ({ categories }) => {
             )}
           >
             {matchedCategory === undefined ? (
-              categories?.flatMap((cat) =>
+              categories?.map((cat) =>
                 cat?.books?.map((book, index) => (
                   <SwiperSlide
                     key={index}

@@ -3,12 +3,12 @@ import clsx from "clsx";
 
 const BookNotesCard = ({item}) => {
 
-  console.log('I came to BookNotesCards')
+  // console.log('I came to BookNotesCards')
   return (
     <>
       <div
         className={
-          "bg-[#ffff] lg:w-fit h-[40vh] flex flex-col items-center rounded-2xl shadow-[0.25vw_0.25vw_0.75vw] p-5 backdrop-blur-none w-[90%]"
+          "bg-[#ffff] lg:w-fit h-[40vh] flex flex-col items-center rounded-2xl shadow-[0px_4px_10px_rgba(0,0,0,0.25)] p-5 backdrop-blur-none w-[90%]"
         }
       >
         <img
@@ -25,8 +25,8 @@ const BookNotesCard = ({item}) => {
           <p className="text-sm text-gray-500">{item?.author.length > 25 ? item?.author.substring(0, 25) + "..." : item?.author}</p>
           <button
             className={clsx(
-              "w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0.75vw_0.75vw_0.75vw_rgba(0,0,0,0.75)] px-2 py-2 rounded-lg mt-8",
-              "lg:px-4 lg:shadow-[0.25vw_0.25vw_0.5vw_rgba(0,0,0,0.75)]"
+              "w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] font-medium px-2 py-2 rounded-lg mt-8",
+              "lg:px-4 shadow-[0px_4px_10px_rgba(0,0,0,0.25)]"
             )}
           >
             Read Notes
