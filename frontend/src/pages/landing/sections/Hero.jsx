@@ -1,5 +1,6 @@
-import HeroTextAnimation from "../components/HeroTextAnimation";
 import clsx from "clsx";
+import HeroTextAnimation from "../components/HeroTextAnimation";
+
 
 const Hero = ({ hero }) => {
   return (

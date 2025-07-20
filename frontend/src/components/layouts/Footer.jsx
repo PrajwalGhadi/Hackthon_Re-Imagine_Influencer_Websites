@@ -1,6 +1,7 @@
 import { useContext } from "react";
-import { ContextAPI } from "../context/ContextAPI";
+import { ContextAPI } from "../../context/ContextAPI";
 import clsx from "clsx";
+import NewletterInput from "../shared/NewletterInput";
 
 const Footer = () => {
   const { landingPageData } = useContext(ContextAPI);
@@ -8,7 +9,7 @@ const Footer = () => {
   const newsletter = landingPageData?.newsletter;
   return (
     <>
-      <div
+      <footer
         className={clsx(
           "bg-[#1A1A1A] text-[#f4eeee] flex max-w-[100vw] flex-col",
           "lg:min-h-[15vw] lg:rounded-tl-[3vw] lg:rounded-tr-[3vw] lg:px-[15vw] lg:py-10 lg:-mt-10"
@@ -20,27 +21,9 @@ const Footer = () => {
               {footer?.logo}
             </h1>
 
-            <form
-              action=""
-              className={clsx("flex justify-start mt-20", "lg:mt-20")}
-            >
-              <input
-                type="text"
-                placeholder={newsletter?.inputPlaceholder}
-                className={
-                  clsx("bg-[#fef4ec] text-gray-700 px-4 rounded-tl-lg rounded-bl-lg",
-                  "lg:px-4 lg:text-lg")
-                }
-              />
-              <button
-                className={clsx(
-                  "w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0.2vw_0.2vw_0.5vw_rgba(0,0,0,0.75)] rounded-tr-lg rounded-br-lg p-2",
-                  "lg:rounded-tr-lg lg:rounded-br-lg lg:mt-auto lg:text-lg lg:p-4"
-                )}
-              >
-                Join Me
-              </button>
-            </form>
+            <div className="flex justify-start mt-20">
+              <NewletterInput />
+            </div>
             <h3 className={clsx("font-medium py-2", "lg:text-lg lg:px-1")}>
               Join the Newsletter
             </h3>
@@ -129,9 +112,11 @@ const Footer = () => {
         </div>
 
         <div className={clsx("py-5 text-center")}>
-            <p>{footer?.credits?.copyrights} | {footer?.credits?.credits}</p>
+          <p>
+            {footer?.credits?.copyrights} | {footer?.credits?.credits}
+          </p>
         </div>
-      </div>
+      </footer>
     </>
   );
 };

@@ -1,0 +1,344 @@
+{
+  "pensieveCard": {
+    "title": "✨ The Pensieve",
+    "subtitle": "My newsletter of thoughts, notes & quotes from my reading adventures",
+    "joinPensivePoints": {
+      "title": "Join The Pensieve to receive:",
+      "subpoints": [
+        "✍️ Honest thoughts & reflections",
+        "📚 Actionable takeaways",
+        "💬 Memorable quotes from books I read"
+      ]
+    },
+    "finalText": "Expect a hectic, inconsistent, but deeply honest journey. 🪄"
+  },
+  "categories": [
+    {
+      "id": 0,
+      "filterLogo": "💊",
+      "filterName": "Medicines",
+      "name": "Medicine",
+      "path": "medicines",
+      "books": [
+        {
+          "title": "DEEP MEDICINE",
+          "author": "ERIC TOPOL",
+          "cover": "https://static.wixstatic.com/media/92947d_e960b8b625dc4880b7b3ce4bd83620b6~mv2.jpg/v1/crop/x_0,y_2,w_200,h_305/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-16%2520at%252021_37_edi.jpg",
+          "link": "https://www.elizabethfilips.com/post/deep-medicine-eric-topol-summary-notes-highlights"
+        },
+        {
+          "title": "WITH THE END IN MIND",
+          "author": "KATHRYN MANNING",
+          "cover": "https://static.wixstatic.com/media/92947d_426df4232483499f8ff6703742e1dd4e~mv2.jpeg/v1/crop/x_1,y_0,w_262,h_400/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9780008210915.jpeg",
+          "link": "https://www.elizabethfilips.com/post/with-the-end-in-mind"
+        },
+        {
+          "title": "GUT",
+          "author": "GULIA ENDERS",
+          "cover": "https://static.wixstatic.com/media/92947d_47a2ed035d0545248426d4884518c3c1~mv2.png/v1/crop/x_0,y_6,w_402,h_612/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_16_31.png",
+          "link": "https://www.elizabethfilips.com/post/gut-guliaenders-summary-notes"
+        },
+        {
+          "title": "COMPLICATIONS",
+          "author": "ATUL GAWANDE",
+          "cover": "https://static.wixstatic.com/media/92947d_ec956e7bf9144d6db5376f3c85523a7b~mv2.png/v1/fill/w_108,h_167,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_17_37.png",
+          "link": "https://www.elizabethfilips.com/post/complications-atul-gawande-summary-notes"
+        },
+        {
+          "title": "RDTRH",
+          "author": "A.ROPPER D.B.BURREL",
+          "cover": "https://static.wixstatic.com/media/92947d_5a3e963fef0045a1a1873cf79ceea6d9~mv2.png/v1/fill/w_108,h_167,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_22_53.png",
+          "link": "https://www.elizabethfilips.com/post/reaching-down-the-rabbit-hole-allan-ropper-and-bdburrel-summary-notes"
+        },
+        {
+          "title": "BEING MORTAL",
+          "author": "ATUL GAWANDE",
+          "cover": "https://static.wixstatic.com/media/92947d_dfd3a203c1ad4ce6b2ae449da0db2074~mv2.png/v1/fill/w_108,h_167,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_25_09.png",
+          "link": "https://www.elizabethfilips.com/post/being-mortal-atul-gawande-summary-notes"
+        },
+        {
+          "title": "WE ARE OUR BRAINS",
+          "author": "DICK SWAAB",
+          "cover": "https://static.wixstatic.com/media/92947d_efed2eb3c347472daed6ecdfc5734518~mv2.png/v1/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_29_41.png",
+          "link": "https://www.elizabethfilips.com/post/we-are-our-brains-summary-notes-highlights"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "filterLogo": "🧠",
+      "filterName": "Human Behaviour",
+      "name": "Human Behaviour",
+      "path": "humanbehaviour",
+      "books": [
+        {
+          "title": "RECEIVING FEEDBACK WELL",
+          "author": "DOUGLAS STONE AND SHEILA HEEN",
+          "cover": "https://static.wixstatic.com/media/92947d_ced5eb7047414948a0bec1b3c299a695~mv2.jpeg/v1/crop/x_0,y_0,w_327,h_500/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/51E8xzOMHmL.jpeg",
+          "link": "https://www.elizabethfilips.com/post/the-science-and-art-of-receiving-feedback-well"
+        },
+        {
+          "title": "A DECENT LIFE: MORALITY FOR THE REST OF US",
+          "author": "TODD MAY",
+          "cover": "https://static.wixstatic.com/media/92947d_f8fe9d46cd33480c865bbdee8870fe3d~mv2.jpg/v1/crop/x_0,y_5,w_600,h_916/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/022678634X_01_S001_LXXXXXXX.jpg",
+          "link": "https://www.elizabethfilips.com/post/a-decent-life-morality-for-the-rest-of-us"
+        },
+        {
+          "title": "RIP IT UP",
+          "author": "RICHARD WISEMAN",
+          "cover": "https://static.wixstatic.com/media/92947d_d002111736024ea6b0111423ae1747a3~mv2.jpg/v1/crop/x_0,y_33,w_900,h_1374/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/61WJdLJigsL.jpg",
+          "link": "https://www.elizabethfilips.com/post/rip-it-up"
+        },
+        {
+          "title": "ALGORITHMS TO LIVE BY",
+          "author": "BRIAN CHRISTIAN",
+          "cover": "https://static.wixstatic.com/media/92947d_a5c2a58ba32441b79a2ff310a88afd1d~mv2.jpeg/v1/crop/x_2,y_0,w_327,h_500/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9781627790369-uk.jpeg",
+          "link": "https://www.elizabethfilips.com/post/algorithms-to-live-by"
+        },
+        {
+          "title": "SHOE DOG",
+          "author": "PHIL KNIGHT",
+          "cover": "https://static.wixstatic.com/media/92947d_8289980de7c5403e8382688141b9b7cc~mv2.jpg/v1/crop/x_0,y_9,w_1399,h_2136/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/71m3HEJJl5L.jpg",
+          "link": "https://www.elizabethfilips.com/post/shoe-dog"
+        },
+        {
+          "title": "THE PSYCHOLOGY OF DISCOVERY AND INVENTION",
+          "author": "DR MIHALY CSIKSZENTMIHALYI",
+          "cover": "https://static.wixstatic.com/media/92947d_53b807ae9edf4217b21196f7395fdb17~mv2.jpg/v1/crop/x_1,y_0,w_327,h_499/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41lRh4YRWOL__SX326_BO1%2C204%2C203%2C200_.jpg",
+          "link": "https://www.elizabethfilips.com/post/creativity-the-psychology-of-discovery-and-invention"
+        },
+        {
+          "title": "THE BOOK OF BOUNDARIES",
+          "author": "MELISSA URBAN",
+          "cover": "https://static.wixstatic.com/media/92947d_70702deb691d41888cfd6ce8e0543baa~mv2.jpg/v1/crop/x_0,y_11,w_297,h_453/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/61716335__SY475_.jpg",
+          "link": "https://www.elizabethfilips.com/post/the-book-of-boundaries"
+        },
+        {
+          "title": "STILL BORN",
+          "author": "GUADALUPE NETTEL",
+          "cover": "https://static.wixstatic.com/media/92947d_6268047821434801a467a1d8e223a658~mv2.jpg/v1/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/51ONP5bsQXL.jpg",
+          "link": "https://www.elizabethfilips.com/post/still-born-guadalupe-nettel"
+        },
+        {
+          "title": "THE BOOK OF BEAUTIFUL QUESTIONS",
+          "author": "WARREN BERGER",
+          "cover": "https://static.wixstatic.com/media/92947d_22975471f5c0447abc2b371d92994e91~mv2.jpeg/v1/crop/x_4,y_0,w_1677,h_2560/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/81NpDcap7mL.jpeg",
+          "link": "https://www.elizabethfilips.com/post/the-book-of-beautiful-questions"
+        },
+        {
+          "title": "A NEW EARTH: CREATE A BETTER LIFE",
+          "author": "ECKHART TOLLE",
+          "cover": "https://static.wixstatic.com/media/92947d_b5d174a1e6074a1e96662f28ea9be41f~mv2.jpeg/v1/crop/x_0,y_7,w_1600,h_2443/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/71RMgs1ihSL.jpeg",
+          "link": "https://www.elizabethfilips.com/post/a-new-earth"
+        },
+        {
+          "title": "UNTETHERED SOUL",
+          "author": "MICHAEL SINGER",
+          "cover": "https://static.wixstatic.com/media/92947d_9985c0ab8df64dffa5225b0ad1b9f270~mv2.jpeg/v1/crop/x_9,y_0,w_982,h_1500/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9781572245372.jpeg",
+          "link": "https://www.elizabethfilips.com/post/untethered-soul-the-journey-beyond-yourself"
+        },
+        {
+          "title": "THE SOUL OF MONEY",
+          "author": "LYNN TWIST",
+          "cover": "https://static.wixstatic.com/media/92947d_f6fff58472734531b54905e0e8418b57~mv2.jpeg/v1/crop/x_8,y_0,w_891,h_1360/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/71e07T3GCML.jpeg",
+          "link": "https://www.elizabethfilips.com/post/the-soul-of-money"
+        },
+        {
+          "title": "ATTACHED: THE SCIENCE OF LOVE",
+          "author": "AMIR LEVINE AND RACHEL HELLER",
+          "cover": "https://static.wixstatic.com/media/92947d_b3cfd7f1de1a45f192d774265efb8940~mv2.jpeg/v1/crop/x_15,y_0,w_1677,h_2560/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/71xNjwfeuyL.jpeg",
+          "link": "https://www.elizabethfilips.com/post/attached"
+        },
+        {
+          "title": "DEEP WORK",
+          "author": "CAL NEWPORT",
+          "cover": "https://static.wixstatic.com/media/92947d_fd673e82558c476b9396c5f848579446~mv2.png/v1/crop/x_0,y_3,w_200,h_305/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-12%2520at%252018_53_edi.png",
+          "link": "https://www.elizabethfilips.com/post/deep-work-cal-newport-summary-notes-highlights"
+        },
+        {
+          "title": "THE SCIENCE OF STORYTELLING",
+          "author": "WILL STORR",
+          "cover": "https://static.wixstatic.com/media/92947d_1ed4965f4f7e4d7397557ffccec63e98~mv2.jpg/v1/crop/x_3,y_0,w_327,h_499/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41Rs2ZlMytL__SX331_BO1%2C204%2C203%2C200_.jpg",
+          "link": "https://www.elizabethfilips.com/post/the-science-of-storytelling"
+        },
+        {
+          "title": "THE RIGHTEOUS MIND",
+          "author": "JONATHAN HAIDT",
+          "cover": "https://static.wixstatic.com/media/92947d_10e22f1e3a6840dcb3429cc12ac44f9e~mv2.jpg/v1/crop/x_0,y_3,w_220,h_336/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-11%2520at%252023_47_edi.jpg",
+          "link": "https://www.elizabethfilips.com/post/the-righteous-mind-summary-notes-highlights"
+        },
+        {
+          "title": "TALKING TO STRANGERS",
+          "author": "MALCOM GLADWELL",
+          "cover": "https://static.wixstatic.com/media/92947d_a55f1d231a89493aa35797bdd5e8deb2~mv2.png/v1/crop/x_7,y_0,w_420,h_642/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-27%20at%2023_18_44-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/talking-to-strangers-gladwell-summary-notes-highlights"
+        },
+        {
+          "title": "UNCONDITIONAL PARENTING",
+          "author": "ALFIE KOHN",
+          "cover": "https://static.wixstatic.com/media/92947d_2d191f0d8226411181499ebc72363aa5~mv2.jpeg/v1/crop/x_25,y_0,w_327,h_500/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/51bhtXeURbL.jpeg",
+          "link": "https://www.elizabethfilips.com/post/unconditional-parenting"
+        },
+        {
+          "title": "ANIMAL FARM",
+          "author": "GEORGE ORWELL",
+          "cover": "https://static.wixstatic.com/media/92947d_2403089ce95e491e9bad4e9cafda8b88~mv2.jpg/v1/crop/x_0,y_81,w_1570,h_2397/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/91iKjJnXCJL.jpg",
+          "link": "https://www.elizabethfilips.com/post/animal-farm-george-orwell-summary"
+        },
+        {
+          "title": "IRRESISTIBLE",
+          "author": "ADAM ALTER",
+          "cover": "https://static.wixstatic.com/media/92947d_7a44991a5816471b9e2aec79ed211132~mv2.jpg/v1/fill/w_108,h_167,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-14%2520at%252023_05_edi.jpg",
+          "link": "https://www.elizabethfilips.com/post/irresistible-adam-alter-summary-notes-highlights"
+        },
+        {
+          "title": "THE HONEST TRUTH ABOUT DISHONESTY",
+          "author": "DAN ARIELY",
+          "cover": "https://static.wixstatic.com/media/92947d_0bf47f11264f4c7eb0cdf5588e090e46~mv2.png/v1/fill/w_108,h_167,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-13%2520at%252014_01_edi.png",
+          "link": "https://www.elizabethfilips.com/post/the-honest-truth-about-dishonesty-summary-notes-highlights-dan-ariely"
+        },
+        {
+          "title": "ESSENTIALISM",
+          "author": "GREG McKEOWN",
+          "cover": "https://static.wixstatic.com/media/92947d_c704b5dc7f6445e2aeb7aa481d862486~mv2.jpg/v1/crop/x_0,y_19,w_682,h_1041/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ESSENTIALISM-min.jpg",
+          "link": "https://www.elizabethfilips.com/post/essentialism-greg-mckeown-summary-highlights-notes"
+        },
+        {
+          "title": "THE THIRD DOOR",
+          "author": "ALEX BANAYAN",
+          "cover": "https://static.wixstatic.com/media/92947d_361d22b9fef84d1dabedc6d8ce96af78~mv2.png/v1/crop/x_0,y_0,w_449,h_686/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-02%20at%2023_12_35.png",
+          "link": "https://www.elizabethfilips.com/post/the-third-door-alex-banayan-summary-notes"
+        },
+        {
+          "title": "80,000 HOURS",
+          "author": "BENJAMIN TODD",
+          "cover": "https://static.wixstatic.com/media/92947d_c68b046a76d24deb99ba183fd4b778ed~mv2.png/v1/crop/x_0,y_1,w_212,h_324/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-13%20at%2017_25_06-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/80000-hours-benjamin-todd-summary-highlights-notes"
+        },
+        {
+          "title": "PREDICTABLY IRRATIONAL",
+          "author": "DAN ARIELY",
+          "cover": "https://static.wixstatic.com/media/92947d_564ae0fcb2204ddd80e87f9d3a72eda7~mv2.jpg/v1/crop/x_0,y_4,w_523,h_799/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-07-06%2520at%252016_35_edi.jpg",
+          "link": "https://www.elizabethfilips.com/post/predictably-irrational-dan-ariley"
+        },
+        {
+          "title": "SURELY YOU'RE JOKING, MR.FEYNMAN!",
+          "author": "RICHARD FEYNMAN",
+          "cover": "https://static.wixstatic.com/media/92947d_50bf7eaf1c8a4c1381841ef604721b2d~mv2.png/v1/crop/x_3,y_0,w_390,h_596/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-19%20at%2023_27_01-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/summary-notes-surely-you-re-joking-mr-feynman"
+        },
+        {
+          "title": "THE COURAGE TO BE DISLIKED",
+          "author": "FUMITAKE KOGA, ICHIRO KISHIMI",
+          "cover": "https://static.wixstatic.com/media/92947d_9c739b4e5297464cb945dbffc787f2a2~mv2.png/v1/crop/x_1,y_0,w_453,h_692/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-30%20at%2001_39_15.png",
+          "link": "https://www.elizabethfilips.com/post/2020/06/30/the-courage-to-be-disliked-summary-notes"
+        },
+        {
+          "title": "HOW PROUST CAN CHANGE YOUR LIFE",
+          "author": "ALAIN DE BOTTON",
+          "cover": "https://static.wixstatic.com/media/92947d_16be4c2b5e744e20903431fa16f96351~mv2.png/v1/crop/x_1,y_0,w_650,h_992/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-08-01%20at%2018_17_21.png",
+          "link": "https://www.elizabethfilips.com/post/how-proust-can-change-your-life-notes-summary-highlights"
+        },
+        {
+          "title": "PERSONALITY ISN'T PERMANENT",
+          "author": "BENJAMIN P. HARDY",
+          "cover": "https://static.wixstatic.com/media/92947d_e7a611f13ba5407f8341321c4bb45806~mv2.png/v1/crop/x_0,y_0,w_285,h_434/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_32_55.png",
+          "link": "https://www.elizabethfilips.com/post/2020/06/29/personality-isnt-permanent-benjamin-hardy-summary-highlights-notes"
+        },
+        {
+          "title": "EGO IS THE ENEMY",
+          "author": "RYAN HOLIDAY",
+          "cover": "https://static.wixstatic.com/media/92947d_eb93114b9bc040aa83281abff7ada3b6~mv2.png/v1/crop/x_16,y_0,w_448,h_684/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-07%20at%2015_38_36-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/ego-is-the-enemy-ryan-holiday-summary-notes"
+        },
+        {
+          "title": "HOW TO WIN EVERY ARGUMENT",
+          "author": "MADSEN PIRIE",
+          "cover": "https://static.wixstatic.com/media/92947d_a1f3f10c03f84f86a5eac2b72da98a52~mv2.png/v1/crop/x_0,y_8,w_512,h_782/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-13%20at%2020_37_59-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/how-to-win-every-argument-summary-notes-highlights-madsen-pirie"
+        },
+        {
+          "title": "ORIGINALS",
+          "author": "ADAM GRANT",
+          "cover": "https://static.wixstatic.com/media/92947d_c9c7e99625a34c12b5d1c80b19431e37~mv2.png/v1/fill/w_108,h_167,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-06-29%20at%2000_26_30.png",
+          "link": "https://www.talkmedicinetome.co.uk/single-post/2017/10/19/ORIGINALS---ADAM-GRANT"
+        },
+        {
+          "title": "THE GENEALOGY OF MORALS",
+          "author": "FRIEDRICH NIETZSCHE",
+          "cover": "https://static.wixstatic.com/media/92947d_783e105663374cbaa6832356602480cc~mv2.png/v1/crop/x_0,y_1,w_392,h_599/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-08-01%20at%2023_33_44-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/the-genealogy-of-morals-summary-notes-highlights-nietzsche"
+        },
+        {
+          "title": "WOMEN, FIRE AND DANGEROUS THINGS",
+          "author": "GEORGE LAKOFF",
+          "cover": "https://static.wixstatic.com/media/92947d_f5103c44c95946ee999da135f810ae5e~mv2.png/v1/crop/x_4,y_0,w_185,h_282/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%2525202020-08-07%252520at%25252023_.png",
+          "link": "https://www.elizabethfilips.com/post/women-fire-and-dangerous-things-book-notes-summary-highlights"
+        },
+        {
+          "title": "PROJECT HAIL MARY",
+          "author": "ANDREW WEIR",
+          "cover": "https://static.wixstatic.com/media/92947d_1cfa7535cc0e40448ee990519dd6b4ab~mv2.jpeg/v1/crop/x_1,y_0,w_181,h_276/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/download.jpeg",
+          "link": "https://www.elizabethfilips.com/post/project-hail-mary"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filterLogo": "⚙️",
+      "filterName": "Productivity",
+      "name": "Productivity",
+      "path": "productivity",
+      "books": [
+        {
+          "title": "DEEP WORK",
+          "author": "CAL NEWPORT",
+          "cover": "https://static.wixstatic.com/media/92947d_fd673e82558c476b9396c5f848579446~mv2.png/v1/crop/x_0,y_3,w_200,h_305/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-12%2520at%252018_53_edi.png",
+          "link": "https://www.elizabethfilips.com/post/deep-work-cal-newport-summary-notes-highlights"
+        },
+        {
+          "title": "ALGORITHMS TO LIVE BY",
+          "author": "BRIAN CHRISTIAN",
+          "cover": "https://static.wixstatic.com/media/92947d_a5c2a58ba32441b79a2ff310a88afd1d~mv2.jpeg/v1/crop/x_2,y_0,w_327,h_500/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9781627790369-uk.jpeg",
+          "link": "https://www.elizabethfilips.com/post/algorithms-to-live-by"
+        },
+        {
+          "title": "SHOE DOG",
+          "author": "PHIL KNIGHT",
+          "cover": "https://static.wixstatic.com/media/92947d_8289980de7c5403e8382688141b9b7cc~mv2.jpg/v1/crop/x_0,y_9,w_1399,h_2136/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/71m3HEJJl5L.jpg",
+          "link": "https://www.elizabethfilips.com/post/shoe-dog"
+        },
+        {
+          "title": "IRRESISTIBLE",
+          "author": "ADAM ALTER",
+          "cover": "https://static.wixstatic.com/media/92947d_7a44991a5816471b9e2aec79ed211132~mv2.jpg/v1/fill/w_108,h_167,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%25202020-08-14%2520at%252023_05_edi.jpg",
+          "link": "https://www.elizabethfilips.com/post/irresistible-adam-alter-summary-notes-highlights"
+        },
+        {
+          "title": "ESSENTIALISM",
+          "author": "GREG McKEOWN",
+          "cover": "https://static.wixstatic.com/media/92947d_c704b5dc7f6445e2aeb7aa481d862486~mv2.jpg/v1/crop/x_0,y_19,w_682,h_1041/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ESSENTIALISM-min.jpg",
+          "link": "https://www.elizabethfilips.com/post/essentialism-greg-mckeown-summary-highlights-notes"
+        },
+        {
+          "title": "80,000 HOURS",
+          "author": "BENJAMIN TODD",
+          "cover": "https://static.wixstatic.com/media/92947d_c68b046a76d24deb99ba183fd4b778ed~mv2.png/v1/crop/x_0,y_1,w_212,h_324/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-13%20at%2017_25_06-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/80000-hours-benjamin-todd-summary-highlights-notes"
+        },
+        {
+          "title": "HOW TO TAKE SMART NOTES",
+          "author": "SONKE AHRENS",
+          "cover": "https://static.wixstatic.com/media/92947d_2365246942a3400aaa7c78338fc10e70~mv2.png/v1/crop/x_0,y_19,w_426,h_650/fill/w_104,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202020-07-24%20at%2002_10_02-min_pn.png",
+          "link": "https://www.elizabethfilips.com/post/how-to-take-smart-notes-summary-highlights-sonke-ahrens"
+        },
+        {
+          "title": "TWELVE AND A HALF",
+          "author": "GARY VAYNERCHUCK",
+          "cover": "https://static.wixstatic.com/media/92947d_4c5dbd4b303d43a4b62401e4d1fc374d~mv2.jpeg/v1/crop/x_2,y_0,w_262,h_400/fill/w_104,h_163,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/55867729.jpeg",
+          "link": "https://www.elizabethfilips.com//post/twelve-and-a-half-gary-vee-book-summary"
+        }
+      ]
+    }
+  ]
+}

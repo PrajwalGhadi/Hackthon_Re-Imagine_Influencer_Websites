@@ -1,6 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules"; // ✅ Correct modules import
 import clsx from "clsx";
+import BookNotesCard from "../../../components/carousels/BookNotesCard";
+
+
 
 const booknotes = ({booknotes}) => {
  
@@ -17,7 +20,7 @@ const booknotes = ({booknotes}) => {
             grabCursor={true}
             centeredSlides={false}
             slidesPerView={1}
-            spaceBetween={50}
+            spaceBetween={10}
             pagination={{ clickable: true, type: "bullets" }}
             autoplay={{
               delay: 2000,
@@ -32,7 +35,7 @@ const booknotes = ({booknotes}) => {
                 key={index}
                 className="!w-[80vw] md:!w-[15vw] flex-shrink-0"
               >
-                <div className={"bg-[#f2f3f5] w-full h-[50vh] flex flex-col items-center rounded-2xl shadow-[0.25vw_0.25vw_0.75vw] p-5"}>
+                {/* <div className={"bg-[#f2f3f5] w-full h-[50vh] flex flex-col items-center rounded-2xl shadow-[0.25vw_0.25vw_0.75vw] p-5"}>
                   <img
                     src={item?.cover}
                     alt={item?.title}
@@ -49,7 +52,8 @@ const booknotes = ({booknotes}) => {
                       Read Notes
                     </button>
                   </div>
-                </div>
+                </div> */}
+                <BookNotesCard item = {item}/>
               </SwiperSlide>
             ))}
           </Swiper>

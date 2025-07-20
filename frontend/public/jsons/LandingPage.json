@@ -20,7 +20,7 @@
       "📚 I share book notes here and in your inbox.",
       "🧠 I make Notion Templates for self-work."
     ],
-    "image": "src/assets/images/landingPageImages/landingPageImage.avif"
+    "image": "/assets/images/landingPageImages/landingPageImage.avif"
   },
   "bookNotes": {
     "heading": "Popular Book Notes",
@@ -146,23 +146,23 @@
       "title": "Social Media",
       "links": [
         {
-          "image": "src/assets/images/footerImages/youtube-logo.png",
+          "image": "/assets/images/footerImages/youtube-logo.png",
           "name": "Youtube"
         },
         {
-          "image": "src/assets/images/footerImages/spotify-logo.png",
+          "image": "/assets/images/footerImages/spotify-logo.png",
           "name": "Spotify"
         },
         {
-          "image": "src/assets/images/footerImages/instagram-logo.png",
+          "image": "/assets/images/footerImages/instagram-logo.png",
           "name": "Instagram"
         },
         {
-          "image": "src/assets/images/footerImages/twiter-logo.png",
+          "image": "/assets/images/footerImages/twiter-logo.png",
           "name": "Twitter"
         },
         {
-          "image": "src/assets/images/footerImages/email-logo.png",
+          "image": "/assets/images/footerImages/email-logo.png",
           "name": "Email"
         }
       ]
