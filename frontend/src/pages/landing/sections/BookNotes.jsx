@@ -1,52 +1,44 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules"; // ✅ Correct modules import
+
+
 import clsx from "clsx";
-import BookNotesCard from "../../../components/carousels/BookNotesCard";
 
+import BookSlider from "../components/BookSlider";
 
-
-const booknotes = ({booknotes}) => {
- 
+const booknotes = ({ booknotes }) => {
   return (
     <>
-      <div className="py-5">
-        <h1 className={clsx("font-medium font-[Playfair_Display] text-[7vw]", "lg:text-[2.5vw] lg:mb-2 lg:leading-[3vw]")}>
+      <section className="py-5">
+        <h1
+          className={clsx(
+            "font-medium font-[Playfair_Display] text-[7vw]",
+            "lg:text-[2.5vw] lg:mb-2 lg:leading-[3vw] md:text-[4.5vw]"
+          )}
+        >
           {booknotes?.heading}
         </h1>
-        <p className={clsx("text-lg mb-10","lg:text-2xl lg:mb-5")}>{booknotes?.description}</p>
-        <div className={clsx("flex justify-between flex-nowrap overflow-hidden shrink-0 min-h-[5vw] px-6", "lg:gap-20 lg:min-h-[5vw] lg:px-5 lg:py-10")}>
-          <Swiper
-            effect="coverflow"
-            grabCursor={true}
-            centeredSlides={false}
-            slidesPerView={1}
-            spaceBetween={10}
-            pagination={{ clickable: true, type: "bullets" }}
-            autoplay={{
-              delay: 2000,
-              disableOnInteraction: false,
-            }}
-            speed={500}
-            modules={[Navigation, Pagination]}
-            className={clsx("!overflow-visible w-full relative !pb-[12vw] lg:!pb-[3vw]")}
-          >
-            {booknotes?.books?.map((item, index) => (
-              <SwiperSlide
-                key={index}
-                className="!w-[80vw] md:!w-[15vw] flex-shrink-0"
-              >
-                <BookNotesCard item = {item}/>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <p className={clsx("text-lg mb-10","lg:text-2xl lg:mb-5")}>
+          {booknotes?.description}
+        </p>
+        <div
+          className={clsx(
+            "flex justify-between flex-nowrap overflow-hidden shrink-0 min-h-[5vw] px-6",
+            "lg:min-h-[5vw] lg:px-5 lg:py-10 md:min-h-[10vw] lg:flex md:flex"
+          )}
+        >
+          <BookSlider booknotes = {booknotes}/>
         </div>
 
         <div className="flex items-center justify-center">
-          <button className={clsx("w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0.75vw_0.75vw_0.75vw_rgba(0,0,0,0.75)] px-2 py-2 rounded-lg mt-8", "lg:px-4 lg:rounded-lg lg:mt-0 lg:shadow-[0.2vw_0.2vw_0.5vw_rgba(0,0,0,0.75)]")}>
+          <button
+            className={clsx(
+              "w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] px-2 py-2 rounded-lg mt-8",
+              "lg:px-4 lg:rounded-lg lg:mt-0"
+            )}
+          >
             Browse Full Library
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 };

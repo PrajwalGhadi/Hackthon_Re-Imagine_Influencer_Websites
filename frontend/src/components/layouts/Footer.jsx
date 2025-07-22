@@ -11,11 +11,11 @@ const Footer = () => {
     <>
       <footer
         className={clsx(
-          "bg-[#1A1A1A] text-[#f4eeee] flex max-w-[100vw] flex-col",
+          "bg-[#1A1A1A] text-[#f4eeee] flex max-w-[100vw] flex-col md:px-[4vw]",
           "lg:min-h-[15vw] lg:rounded-tl-[3vw] lg:rounded-tr-[3vw] lg:px-[15vw] lg:py-10 lg:-mt-10"
         )}
       >
-        <div className={clsx("flex flex-col", "lg:flex-row")}>
+        <div className={clsx("flex flex-col", "lg:flex-row md:flex-row")}>
           <div className="w-full  p-4">
             <h1 className={clsx("font-[Square_peg] text-5xl", "lg:text-5xl")}>
               {footer?.logo}
@@ -33,7 +33,7 @@ const Footer = () => {
             <h3
               className={clsx(
                 "font-medium text-xl",
-                "lg:text-lg lg:px-1 lg:py-2"
+                "lg:text-lg lg:px-1 lg:py-2 md:text-md"
               )}
             >
               {footer?.resources?.title}
@@ -56,7 +56,7 @@ const Footer = () => {
             <h3
               className={clsx(
                 "font-medium text-xl",
-                "lg:text-lg lg:px-1 lg:py-2"
+                "lg:text-lg lg:px-1 lg:py-2 md:text-md"
               )}
             >
               {footer?.contact?.title}
@@ -75,11 +75,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-[50%]  p-4">
+          <div className="w-full  p-4">
             <h3
               className={clsx(
-                "font-medium text-xl",
-                "lg:text-lg lg:px-1 lg:py-2"
+                "font-medium text-xl mb-5",
+                "lg:text-lg lg:px-1 lg:py-2 md:text-md"
               )}
             >
               {footer?.socialMedia?.title}
@@ -94,10 +94,10 @@ const Footer = () => {
                       alt={item?.name}
                       className={clsx(
                         "w-[6vw] h-[6vw]",
-                        "lg:w-[2vw] lg:h-[2vw]"
+                        "lg:w-[2vw] lg:h-[2vw] md:w-[4vw] md:h-[4vw]"
                       )}
                     />
-                    <h3 className="text-lg">{item?.name}</h3>
+                    <h3 className="text-lg md:text-md">{item?.name}</h3>
                   </div>
                 );
               })}

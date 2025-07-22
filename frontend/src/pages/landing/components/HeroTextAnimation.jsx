@@ -12,7 +12,7 @@ const HeroTextAnimation = ({ hero }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-lg lg:text-2xl")}
+            className={clsx("text-md lg:text-xl")}
           />
           <TypeAnimation
             sequence={[
@@ -23,7 +23,7 @@ const HeroTextAnimation = ({ hero }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-lg lg:text-2xl")}
+            className={clsx("text-md lg:text-xl")}
           />
           <TypeAnimation
             sequence={[
@@ -34,7 +34,7 @@ const HeroTextAnimation = ({ hero }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-lg lg:text-2xl")}
+            className={clsx("text-md lg:text-xl")}
           />
           <TypeAnimation
             sequence={[
@@ -45,7 +45,7 @@ const HeroTextAnimation = ({ hero }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-lg lg:text-2xl")}
+            className={clsx("text-md lg:text-xl")}
           />
           <TypeAnimation
             sequence={[
@@ -56,7 +56,7 @@ const HeroTextAnimation = ({ hero }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-lg lg:text-2xl")}
+            className={clsx("text-md lg:text-xl")}
           />
         </>
       )}

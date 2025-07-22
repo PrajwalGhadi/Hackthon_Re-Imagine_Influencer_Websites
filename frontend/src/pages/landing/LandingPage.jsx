@@ -23,7 +23,7 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className={clsx("flex flex-col font-[Inter] px-[4vw] gap-[10vw]", "lg:gap-[2vw] lg:pt-[5vw]")}>
+      <div className={clsx("flex flex-col font-[Inter] px-[4vw] lg:px-[4vw] gap-[10vw]", "lg:gap-[2vw] lg:pt-[5vw]")}>
         <Hero hero = {hero}/>
         <NewsLetter newsletter = {newsletter}/>
         <BookNotes booknotes = {booknotes}/>

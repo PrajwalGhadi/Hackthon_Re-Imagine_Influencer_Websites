@@ -12,7 +12,7 @@ const BookNotesTextAnimation = ({ pensieve }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-md lg:text-2xl opacity-75")}
+            className={clsx("text-md lg:text-2xl opacity-75 md:text-2xl")}
           />
           <TypeAnimation
             sequence={[
@@ -23,7 +23,7 @@ const BookNotesTextAnimation = ({ pensieve }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-md lg:text-2xl  opacity-75")}
+            className={clsx("text-md lg:text-2xl  opacity-75 md:text-2xl")}
           />
           <TypeAnimation
             sequence={[
@@ -34,7 +34,7 @@ const BookNotesTextAnimation = ({ pensieve }) => {
             wrapper="span"
             speed={50}
             cursor={false}
-            className={clsx("text-md lg:text-2xl  opacity-75")}
+            className={clsx("text-md lg:text-2xl  opacity-75 md:text-2xl")}
           />
         </>
       )}
