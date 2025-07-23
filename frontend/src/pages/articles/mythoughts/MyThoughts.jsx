@@ -54,7 +54,7 @@ const MyThoughts = ({ myThoughts }) => {
               return (
                 <h1
                   key={index}
-                  className="text-lg py-3 font-light md:px-2  text-shadow-lg/20 bg-[#fef4ec] shadow-[0px_4px_10px_rgb(0,0,0,0.25)] rounded-xl hover:active:scale-95  hover:bg-[#8484fa] hover:text-white hover:shadow-[0px_4px_10px_rgb(0,0,0,0.5)] hover:rounded-xl hover:transition-all hover:ease-in hover:duration-200"
+                  className="text-lg py-3 font-light md:px-1  text-shadow-lg/20 bg-[#fef4ec] shadow-[0px_4px_10px_rgb(0,0,0,0.25)] rounded-xl hover:active:scale-95  hover:bg-[#8484fa] hover:text-white hover:shadow-[0px_4px_10px_rgb(0,0,0,0.5)] hover:rounded-xl hover:transition-all hover:ease-in hover:duration-200 md:text-md"
                 >
                   {item}
                 </h1>

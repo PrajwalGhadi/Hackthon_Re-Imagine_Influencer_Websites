@@ -47,7 +47,7 @@ const Hero = ({ hero }) => {
         >
           <div
             className={clsx(
-              "shadow-[0px_4px_10px_rgba(0,0,0,0.25)] active:scale-105 rounded-tl-[8vw] rounded-br-[8vw] w-[55vw]",
+              "shadow-[0px_4px_10px_rgb(0,0,0,0.5)] active:scale-105 rounded-tl-[8vw] rounded-br-[8vw] w-[55vw]",
               "lg:w-[15vw] lg:rounded-tl-[4vw] lg:rounded-br-[4vw] md:w-[25vw]"
             )}
           >

@@ -10,7 +10,7 @@ const Hero = () => {
             <h1 className="text-[5vw] font-bold lg:text-4xl lg:font-medium text-center md:text-[2.75vw]">
               A Newsletter for Curious Thinkers ✨
             </h1>
-            <h3 className="text-[3.25vw] lg:text-2xl text-center opacity-75 w-[90%] md:text-[2vw]">
+            <h3 className="text-[3.25vw] lg:text-[1vw] text-center opacity-75 w-[90%] md:text-[2vw]">
               “No spam. Just my favorite thoughts, book takeaways, and
               unfiltered ideas — as I write, read, and grow.”
             </h3>
@@ -77,7 +77,7 @@ const Hero = () => {
         >
           <div
             className={clsx(
-              "shadow-[0.2vw_0.25vw_0.5vw_rgb(0,0,0,0.75)] active:scale-105 rounded-tl-[8vw] rounded-br-[8vw] w-[55vw]",
+              "shadow-[0px_4px_10px_rgb(0,0,0,0.5)] active:scale-105 rounded-tl-[8vw] rounded-br-[8vw] w-[55vw]",
               "lg:w-[15vw] lg:rounded-tl-[4vw] lg:rounded-br-[4vw] md:w-[35vw]"
             )}
           >

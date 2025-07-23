@@ -10,7 +10,7 @@ const PensieveCard = ({ pensieve }) => {
           <h1 className="text-center font-semibold text-[7vw] lg:text-[3vw] md:text-[5vw]">
             {pensieve?.title}
           </h1>
-          <h3 className="text-center text-[3vw] font-small lg:text-[1.25vw]">
+          <h3 className="text-center text-[3vw] font-small lg:text-[1.25vw] md:text-[2.25vw]">
             {pensieve?.subtitle}
           </h3>
 
@@ -19,11 +19,11 @@ const PensieveCard = ({ pensieve }) => {
           </div>
 
           <div className="px-5 lg:px-25">
-            <h3 className="text-[4vw] font-medium lg:text-[1.5vw] md:text-[3.5vw]">
+            <h3 className="text-[4vw] font-medium lg:text-[1.5vw] md:text-[3vw]">
               {pensieve?.joinPensivePoints?.title}
             </h3>
 
-            <div className={clsx("min-h-[12vh] flex flex-col", "")}>
+            <div className={clsx("min-h-[12vh] flex flex-col", "md:min-h-[10vw] lg:min-h-[6vw]")}>
               <BookNotesTextAnimation pensieve={pensieve} />
             </div>
           </div>

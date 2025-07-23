@@ -11,7 +11,7 @@ const BookNotesPage = () => {
 
   return (
     <>
-      <main className={clsx("w-full pt-[15vw]", "lg:gap-[2vw] lg:pt-[5vw]")} id="BookNotesPage">
+      <main className={clsx("w-full pt-[15vw]", "lg:gap-[2vw] lg:pt-[5vw] md:py-[10vw]")} id="BookNotesPage">
         <PensieveCard pensieve = {bookNotesPageData?.pensieveCard}/>
         <BookNotesFilter categories = {bookNotesPageData?.categories}/>
         <BooksContainer categories = {bookNotesPageData?.categories}/>

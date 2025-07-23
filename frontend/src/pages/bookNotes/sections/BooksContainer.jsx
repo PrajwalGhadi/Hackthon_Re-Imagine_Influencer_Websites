@@ -25,7 +25,7 @@ const BooksContainer = ({ categories }) => {
         {/* For Desktop View */}
         <div
           className={clsx(
-            "hidden lg:flex-wrap overflow-auto  min-h-[5vw] mb-15 rounded-2xl [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+            "hidden lg:flex-wrap overflow-auto  min-h-[5vw] rounded-2xl [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
             "lg:flex lg:justify-center lg:gap-10 lg:max-h-[50vw] lg:px-4 lg:py-10  lg:max-w-[70vw] md:flex md:max-h-[50vh] md:justify-start md:gap-5 md:flex-wrap md:px-6 md:max-w-[100vw]"
           )}
         >
