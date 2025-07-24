@@ -1,8 +1,13 @@
 import clsx from "clsx";
 import ArticleContent from "../ArticleContent";
 import { useState, useEffect } from "react"; // Import useEffect
+import { useNavigate } from "react-router-dom";
 
 const MyThoughts = ({ myThoughts }) => {
+
+  // useNavigation
+  const navigation = useNavigate();
+
 
   // It was taking time so taken help of Gemini to generate a search feature. I have understand the feature and then tried implemented by my own
   const [searchItem, setSearchItem] = useState("");
@@ -37,7 +42,7 @@ const MyThoughts = ({ myThoughts }) => {
     <section
       id="Mythoughts"
       className={clsx(
-        "flex flex-col justify-between font-[Inter] mt-15 gap-10",
+        "flex flex-col justify-between font-[Inter] mt-20 gap-10",
         "lg:flex-row lg:mt-0"
       )}
     >
@@ -63,13 +68,14 @@ const MyThoughts = ({ myThoughts }) => {
           </div>
         </div>
 
-        <div className="w-[100%]  h-[80vh] rounded-2xl shadow-[0px_4px_10px_rgba(0,0,0,0.25)] py-10 px-5 flex flex-col gap-5 overflow-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="w-[100%] relative h-[80vh] rounded-2xl shadow-[0px_4px_10px_rgba(0,0,0,0.25)] py-20 px-5 flex flex-col gap-5 overflow-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {/* Searchbar */}
-          <div className="flex items-center justify-center -mt-5">
+          {/* First div is full adjusted according to requirement not good but temperary */}
+          <div className=" left-9 lg:left-175 md:left-87 flex justify-center items-center -mt-15">
             <input
               type="text"
               placeholder="Search Blog..."
-              className="bg-gray-100 p-3 rounded-2xl border-gray-300 border-1 outline-none focus:border-[#8a2be2] shadow-[0px_4px_10px_rgba(0,0,0,0.25)]"
+              className="md:w-[55%] lg:w-[35%] bg-gray-100 p-3 rounded-2xl border-gray-300 border-1 outline-none focus:border-[#8a2be2] shadow-[0px_4px_10px_rgba(0,0,0,0.25)]"
               value={searchItem}
               onChange={handleInputChange}
             />
@@ -77,27 +83,28 @@ const MyThoughts = ({ myThoughts }) => {
           </div>
 
           {/* Creating the card for blog posts */}
-          {filteredPosts?.reverse().map((item, index) => { // Use filteredPosts here
+          {filteredPosts?.map((item, index) => { // Use filteredPosts here
             return (
               <div
+                onClick={()=> {navigation(`/articles/post/${index}`)}}
                 key={item.id || index} // Add a unique key, preferably item.id if available
-                className={` flex flex-col gap-2 rounded-2xl py-4 ${
+                className={` flex flex-col gap-4 rounded-2xl py-4  mt-5 ${
                   index % 2 === 0
                     ? "bg-[#cfcff1] hover:bg-[#8484fa] hover:text-white"
                     : "bg-[rgba(187,187,200,0.5)] hover:bg-[#5e5e64] hover:text-white"
                 }  shadow-[0px_4px_10px_rgba(0,0,0,0.25)] hover:scale-100 hover:mx-2 hover:transition-all hover:ease-in hover:duration-300 hover:active:scale-97`}
               >
-                <div className="px-5 flex gap-5">
+                <div className="px-5 flex gap-5 text-xl">
                   <small>{item?.date}</small> <small>{item?.readTime}</small>
                 </div>
 
                 <div className="px-5 flex flex-col gap-2">
-                  <h1 className="font-bold ">{item?.title}</h1>
-                  <p className="text-lg opacity-75 hover:opacity-100">
+                  <h1 className="font-bold text-2xl">{item?.title}</h1>
+                  <div className="opacity-75 hover:opacity-100 text-2xl">
                     <ArticleContent
                       html={item?.content?.slice(0, 775) + "..."}
                     />
-                  </p>
+                  </div>
                 </div>
               </div>
             );

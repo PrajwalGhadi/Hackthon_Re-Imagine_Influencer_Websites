@@ -12,7 +12,7 @@ const Footer = () => {
       <footer
         className={clsx(
           "bg-[#1A1A1A] text-[#f4eeee] flex max-w-[100vw] flex-col md:px-[4vw]",
-          "lg:min-h-[15vw] lg:rounded-tl-[3vw] lg:rounded-tr-[3vw] lg:px-[15vw] lg:py-10 lg:-mt-10"
+          "lg:min-h-[15vw] rounded-tl-[3vw] rounded-tr-[3vw] lg:px-[15vw] lg:py-10 lg:-mt-10"
         )}
       >
         <div className={clsx("flex flex-col", "lg:flex-row md:flex-row")}>
