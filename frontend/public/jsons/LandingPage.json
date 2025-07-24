@@ -15,9 +15,9 @@
     "subHeadline": "I love to think and talk about learning, creativity and reading. And how to find the time to do those things.",
     "subpoints": [
       "🎥 I make nerdy videos on YouTube.",
-      "💌 I write thoughts & curated things in my newsletter.",
-      "🎙  I paint and explore my brain on my podcast.",
-      "📚 I share book notes here and in your inbox.",
+      "💌 I write thoughts & curated things in my Newsletter.",
+      "🎙  I paint and explore my brain on my Podcast.",
+      "📚 I share book notes here and in your Inbox.",
       "🧠 I make Notion Templates for self-work."
     ],
     "image": "/assets/images/landingPageImages/landingPageImage.avif"
@@ -132,7 +132,7 @@
     "logo": "Elizabeth Filips",
     "resources": {
       "title": "Resources",
-      "links": ["Articles", "Book Notes", "Podcast", "Youtube", "About"]
+      "links": [{"title": "Articles", "link":"/articles"}, {"title":"Book Notes", "link":"/booknotes"}, {"title":"Podcast", "link":"/podcast"}, {"title":"Youtube", "link":"/youtube"}, {"title":"About", "link":"/contact"}]
     },
     "contact": {
       "title": "Contact",
@@ -146,6 +146,7 @@
       "title": "Social Media",
       "links": [
         {
+          "link": "https://www.youtube.com/@elizabethfilips",
           "image": "/assets/images/footerImages/youtube-logo.png",
           "name": "Youtube"
         },
@@ -154,10 +155,12 @@
           "name": "Spotify"
         },
         {
+          "link": "https://www.instagram.com/elizabeth.filips/",
           "image": "/assets/images/footerImages/instagram-logo.png",
           "name": "Instagram"
         },
         {
+          "link": "https://x.com/lizziefilips",
           "image": "/assets/images/footerImages/twiter-logo.png",
           "name": "Twitter"
         },

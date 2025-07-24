@@ -10,7 +10,7 @@ import clsx from "clsx";
 
 
 const LandingPage = () => {
-  console.log("Hello from landing page");
+  // console.log("Hello from landing page");
   const { landingPageData } = useContext(ContextAPI);
 
   // Mulitple variable created to pass the data as props to all the section of landing page

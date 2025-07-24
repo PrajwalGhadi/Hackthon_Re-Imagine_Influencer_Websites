@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import Button from "../../../components/shared/Button";
 
 const YoutubeVideos = ({youtube}) => {
 
@@ -10,13 +11,13 @@ const YoutubeVideos = ({youtube}) => {
         </h1>
         <p className={clsx("text-lg mb-10","lg:text-2xl lg:mb-5")}>{youtube?.description}</p>
 
-        <div className={clsx("flex item-center justify-between flex-wrap overflow-hidden shrink-0 gap-10 px-3 py-5 min-h-[15vw]", "lg:gap-10 lg:min-h-[5vw] lg:px-15 lg:py-10 md:flex-row")}>
+        <div className={clsx("flex item-center justify-between flex-wrap overflow-hidden shrink-0 gap-10 px-3 py-5 min-h-[15vw]", "lg:gap-10 lg:px-5 lg:py-15 md:flex-row")}>
           {youtube?.videos.map((item, index) => {
             return (
-              <div key={index} className={clsx("shadow-[0px_4px_10px_rgba(0,0,0,0.25)] bg-[#f2f3f5] rounded-2xl w-full","lg:w-[30%]  md:w-[47%]")}>
-                <img src={item?.thumbnail} alt={item?.title} className={clsx("w-full object-cover rounded-2xl")}/>
+              <div key={index} className={clsx("shadow-[0px_4px_10px_rgba(0,0,0,0.25)] bg-[#f2f3f5] rounded-2xl w-full","lg:w-[30%]  md:w-[47%] hover:cursor-pointer hover:p-3 hover:bg-gray-400 hover:text-white hover:transition-[bg, text] hover:duration-200 hover:ease")}>
+                <img src={item?.thumbnail} alt={item?.title} className={clsx("w-full object-cover rounded-2xl ")}/>
                 <div>
-                  <h3 className={clsx("text-center font-medium px-2 py-2 text-md")}>{item?.title}</h3>
+                  <h3 className={clsx("text-center font-medium px-2 py-2 text-md lg:text-md")}>{item?.title}</h3>
                 </div>
               </div>
             );
@@ -25,9 +26,7 @@ const YoutubeVideos = ({youtube}) => {
         </div>
 
         <div className="flex items-center justify-center">
-          <button className={clsx("w-fit text-[#fef4ec] bg-[#bc8f8f] font-medium border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] px-2 py-2 rounded-lg mt-8", "lg:px-4 lg:rounded-lg lg:mt-0")}>
-            Browse Full Library
-          </button>
+          <Button text = {'Browse Full Library'} navigateTo={'/youtube'}/>
         </div>
       </section>
     </>

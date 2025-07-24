@@ -3,6 +3,7 @@
 import clsx from "clsx";
 
 import BookSlider from "../components/BookSlider";
+import Button from "../../../components/shared/Button";
 
 const booknotes = ({ booknotes }) => {
   return (
@@ -29,14 +30,7 @@ const booknotes = ({ booknotes }) => {
         </div>
 
         <div className="flex items-center justify-center">
-          <button
-            className={clsx(
-              "w-fit text-[#fef4ec] bg-[#bc8f8f] border-none shadow-[0px_4px_10px_rgba(0,0,0,0.25)] px-2 py-2 rounded-lg mt-8",
-              "lg:px-4 lg:rounded-lg lg:mt-0"
-            )}
-          >
-            Browse Full Library
-          </button>
+          <Button text = {'Browse Full Library'} />
         </div>
       </section>
     </>
