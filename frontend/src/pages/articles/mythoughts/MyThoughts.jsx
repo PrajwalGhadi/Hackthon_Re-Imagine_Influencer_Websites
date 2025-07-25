@@ -100,7 +100,7 @@ const MyThoughts = ({ myThoughts }) => {
 
                 <div className="px-5 flex flex-col gap-2">
                   <h1 className="font-bold text-2xl">{item?.title}</h1>
-                  <div className="opacity-75 hover:opacity-100 text-2xl">
+                  <div className="opacity-75 hover:opacity-100 text-xl">
                     <ArticleContent
                       html={item?.content?.slice(0, 775) + "..."}
                     />

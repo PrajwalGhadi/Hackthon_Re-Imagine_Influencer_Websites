@@ -14,7 +14,7 @@ const YoutubeVideos = ({youtube}) => {
         <div className={clsx("flex item-center justify-between flex-wrap overflow-hidden shrink-0 gap-10 px-3 py-5 min-h-[15vw]", "lg:gap-10 lg:px-5 lg:py-15 md:flex-row")}>
           {youtube?.videos.map((item, index) => {
             return (
-              <div key={index} className={clsx("shadow-[0px_4px_10px_rgba(0,0,0,0.25)] bg-[#f2f3f5] rounded-2xl w-full","lg:w-[30%]  md:w-[47%] hover:cursor-pointer hover:p-3 hover:bg-gray-400 hover:text-white hover:transition-[bg, text] hover:duration-200 hover:ease")}>
+              <div key={index} className={clsx("shadow-[0px_4px_10px_rgba(0,0,0,0.25)] bg-[#f2f3f5] rounded-2xl w-full","lg:w-[30%]  md:w-[47%] hover:cursor-pointer hover:p-3 hover:bg-gray-500 hover:text-white hover:transition-[bg, text] hover:duration-200 hover:ease")}>
                 <img src={item?.thumbnail} alt={item?.title} className={clsx("w-full object-cover rounded-2xl ")}/>
                 <div>
                   <h3 className={clsx("text-center font-medium px-2 py-2 text-md lg:text-md")}>{item?.title}</h3>

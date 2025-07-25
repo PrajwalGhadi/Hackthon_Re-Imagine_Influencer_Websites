@@ -32,7 +32,7 @@ const Footer = () => {
             </h3>
           </div>
 
-          <div className="w-full lg:w-[50%] py-4 lg:p-4" >
+          <div className="w-full lg:w-[50%] p-4" >
             <h3
               className={clsx(
                 "font-medium text-xl",
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-[100%] px-1 py-4 lg:p-4">
+          <div className="w-full lg:w-[100%] p-4">
             <h3
               className={clsx(
                 "font-medium text-xl",
@@ -78,7 +78,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full  px-0 py-4">
+          <div className="w-full  px-4 py-4">
             <h3
               className={clsx(
                 "font-medium text-xl mb-5",
