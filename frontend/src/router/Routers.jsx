@@ -5,6 +5,8 @@ import Newsletter from '../pages/newsletter/Newsletter'
 import ComingSoon from '../pages/comingSoon/ComingSoon'
 import Articles from '../pages/articles/Articles'
 import Podcast from '../pages/podcast/Podcast'
+import Posts from '../pages/articles/posts/Posts'
+import CreatePost from '../pages/createPosts/CreatePost'
 
 const Routers = () => {
   return (
@@ -19,10 +21,12 @@ const Routers = () => {
         {/* NewsLetter Page Routing */}
         <Route path='/newsletter' element={<Newsletter />}></Route>
 
+        <Route path='/createpost' element={<CreatePost />}></Route>
+
         {/* Article Page Routing */}
         {/* <Route path='/articles' element = {<ComingSoon title = {'Article'}/>}></Route> */}
         <Route path='/articles' element = {<Articles />}></Route>
-
+        <Route path='/articles/post/:id' element = {<Posts />}></Route>
 
         {/* Podcast Page Routing */}
         <Route path='/podcast' element = {<ComingSoon title = {'Podcast'}/>}></Route>

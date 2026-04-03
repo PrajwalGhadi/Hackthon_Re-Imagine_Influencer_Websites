@@ -26,7 +26,7 @@ const BooksContainer = ({ categories }) => {
         <div
           className={clsx(
             "hidden lg:flex-wrap overflow-auto  min-h-[5vw] rounded-2xl [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
-            "lg:flex lg:justify-center lg:gap-10 lg:max-h-[50vw] lg:px-4 lg:py-10  lg:max-w-[70vw] md:flex md:max-h-[50vh] md:justify-start md:gap-5 md:flex-wrap md:px-6 md:max-w-[100vw]"
+            "lg:flex lg:justify-center lg:gap-10 lg:max-h-[50vw] lg:px-4 lg:py-10  lg:max-w-[70vw] md:flex md:max-h-[50vh] md:justify-start md:gap-5 md:flex-wrap md:px-6 md:py-5 md:max-w-[100vw]"
           )}
         >
           {/* Using Double map here because books are kept under category  */}
@@ -48,7 +48,7 @@ const BooksContainer = ({ categories }) => {
         {/* For Mobile View */}
         <div
           className={clsx(
-            "flex justify-between flex-nowrap overflow-hidden shrink-0 min-h-[5vw] px-6 lg:hidden md:hidden"
+            "flex justify-between flex-nowrap overflow-hidden shrink-0 min-h-[5vw] p-6 lg:hidden md:hidden"
           )}
         >
           <Swiper
